@@ -44,7 +44,7 @@ h1 { margin-top: 25px; font-family: var(--serif); font-size: clamp(64px, 7vw, 92
 .name-period { color: var(--accent); }
 .hero-intro { max-width: 555px; margin-top: 24px; font-size: 19px; line-height: 1.75; color: #596052; letter-spacing: -.2px; }
 .hero-focus { margin-top: 18px; max-width: 530px; font-size: 13px; line-height: 1.85; color: var(--muted); }
-.hero-actions { display: flex; align-items: center; gap: 28px; margin-top: 31px; }
+.hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 22px 28px; margin-top: 31px; }
 .button { display: inline-flex; justify-content: space-between; align-items: center; gap: 25px; min-height: 44px; background: var(--ink); color: #fcfcf6; padding: 14px 19px; border: 1px solid var(--ink); border-radius: 3px; font-size: 12px; font-weight: 500; transition: background .18s ease; }
 .button:hover { background: var(--accent); border-color: var(--accent); }
 .text-link { display: inline-flex; align-items: center; gap: 8px; min-height: 28px; font-size: 12px; font-weight: 600; }
@@ -214,8 +214,10 @@ h3 { font-family: var(--serif); font-size: 29px; font-weight: 400; line-height: 
 
 .contact-section { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); display: flex; justify-content: space-between; align-items: center; gap: 40px; padding-block: 45px 47px; }
 .contact-section h2 { font-size: 43px; margin-top: 13px; }
-.contact-section > div > p:last-child { margin-top: 12px; color: var(--muted); font-size: 12px; line-height: 1.8; }
-.contact-links { display: flex; gap: 37px; }
+.contact-section .contact-description { margin-top: 12px; color: var(--muted); font-size: 12px; line-height: 1.8; }
+.contact-email { display: inline-flex; align-items: center; gap: 12px; margin-top: 18px; font-size: 17px; line-height: 1.7; color: var(--accent); }
+.contact-email:hover { text-decoration: underline; }
+.contact-links { display: flex; flex-wrap: wrap; gap: 22px 28px; max-width: 100%; }
 .contact-links a { font-size: 14px; border-bottom: 1px solid #aeb8a4; padding-bottom: 8px; display: flex; align-items: center; gap: 20px; }
 .contact-links a:hover { color: var(--accent); border-bottom-color: var(--accent); }
 .site-footer { display: flex; justify-content: space-between; align-items: center; gap: 25px; color: var(--muted); padding-block: 23px 32px; font-size: 9px; }
