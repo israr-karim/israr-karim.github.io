@@ -36,4 +36,4 @@ All asset paths are relative. If the domain changes, update the canonical and Op
 
 Professional work is described at a high level; company source code and private project implementations are not included. HireBetter credits collaborator MD. Sakib Khan. The transmission-line prototype is identified as an adapted course implementation. Research directions describe future interests, and the thesis links to its university record and accompanying experiment repository.
 
-The contact section links to GitHub, the LinkedIn profile at `https://www.linkedin.com/in/israrkarim/`, and `mailto:israrkarim08@gmail.com`. The CV is the PDF supplied by the author, with download links in the introduction and contact section.
+The contact section links to GitHub, the LinkedIn profile at `https://www.linkedin.com/in/israrkarim/`, and `mailto:israrkarim08@gmail.com`. The CV is the PDF supplied by the author, with a download link in the contact section.

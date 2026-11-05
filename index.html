@@ -37,11 +37,10 @@
           <div class="hero-copy">
             <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span>Software engineer · Dhaka, Bangladesh</p>
             <h1 id="hero-heading">Kazi Israrul <br />Karim<span class="name-period">.</span></h1>
-            <p class="hero-intro">I build data pipelines, RLHF workflows, and applied AI systems at SuperAnnotate. My work supports enterprise AI clients, including companies in the Magnificent Seven, and spans consensus pipelines, text-to-speech RL environments, and full-stack product engineering.</p>
+            <p class="hero-intro">I build data pipelines and applied AI systems at SuperAnnotate. My work spans enterprise ETL, RLHF consensus workflows, text-to-speech RL environments, and full-stack product engineering.</p>
             <p class="hero-focus">I want to bring this engineering experience to research in video understanding, reliable model evaluation, and perception for robotics.</p>
             <div class="hero-actions">
               <a class="button" href="#work">Explore my work <span aria-hidden="true">↓</span></a>
-              <a class="text-link" href="./assets/kazi-israrul-karim-cv.pdf" download="Kazi_Israrul_Karim_CV.pdf" type="application/pdf">Download CV <span aria-hidden="true">↓</span></a>
               <a class="text-link" href="https://github.com/israr-karim" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
             </div>
           </div>
@@ -110,14 +109,27 @@
           <div class="section-heading">
             <div>
               <p class="section-index">02 / Selected projects</p>
-              <h2 id="projects-heading">Selected projects &amp; experiments.</h2>
+              <h2 id="projects-heading">Projects in focus.</h2>
             </div>
             <a class="quiet-link" href="https://github.com/israr-karim?tab=repositories" target="_blank" rel="noopener noreferrer">All repositories <span aria-hidden="true">↗</span><span class="sr-only"> (opens in a new tab)</span></a>
           </div>
 
           <article class="collaboration-project" id="hirebetter">
-            <div class="collaboration-copy"><p class="project-kind">Collaborative side project / Applied AI</p><h3>HireBetter</h3><p>Co-developed with <a class="inline-link" href="https://github.com/LetsTrie" target="_blank" rel="noopener noreferrer">MD. Sakib Khan<span class="sr-only"> (opens in a new tab)</span></a>, HireBetter analyzes recorded interviews to surface potential integrity concerns, combining video and audio signals, transcription, AI-assisted judging, and evidence-linked reports.</p><p>My work centers on the analysis worker, signal logic, judging and reporting, and iterative evaluation with attention to false positives.</p><ul class="tags" aria-label="HireBetter technologies"><li>Python</li><li>OpenCV</li><li>LLMs</li><li>AWS</li></ul><p class="collaboration-credit">Collaborative project · Source code is private</p></div>
-            <div class="collaboration-summary" aria-label="HireBetter implementation areas"><div><span class="small-label">Inputs</span><p>Video, audio & transcripts</p></div><div><span class="small-label">Analysis</span><p>Signals combined with AI-assisted review</p></div><div><span class="small-label">Outputs</span><p>Reports linked to supporting evidence</p></div><div><span class="small-label">Development</span><p>Evaluation & false-positive iteration</p></div></div>
+            <div class="collaboration-copy">
+              <p class="project-kind">Collaborative side project / Applied AI</p>
+              <h3>HireBetter</h3>
+              <p>Co-developed with <a class="inline-link" href="https://github.com/LetsTrie" target="_blank" rel="noopener noreferrer">MD. Sakib Khan<span class="sr-only"> (opens in a new tab)</span></a>, HireBetter analyzes recorded interviews using video, audio, and transcripts to surface potential integrity concerns for human review.</p>
+              <p>A Next.js frontend and NestJS API handle uploads and analysis jobs. S3 stores artifacts, while SQS queues work for Python analysis workers on ECS. The pipeline uses OpenCV and ffmpeg for media processing, then combines extracted signals, transcription, and LLM-assisted judging into reports linked to supporting evidence.</p>
+              <p>My contributions focus on the analysis worker, signal extraction, judging logic, report generation, and evaluation with attention to false positives.</p>
+              <ul class="tags" aria-label="HireBetter technologies"><li>Next.js</li><li>NestJS</li><li>Python</li><li>OpenCV</li><li>AWS</li></ul>
+              <p class="collaboration-credit">Collaborative project · Source code is private</p>
+            </div>
+            <div class="collaboration-summary" aria-label="HireBetter architecture">
+              <div><span class="small-label">Application</span><p>Next.js · NestJS · Prisma</p></div>
+              <div><span class="small-label">Media analysis</span><p>Python · OpenCV · ffmpeg</p></div>
+              <div><span class="small-label">Job pipeline</span><p>S3 uploads · SQS queue · ECS workers</p></div>
+              <div><span class="small-label">Results</span><p>Evidence-linked reports &amp; PDF exports</p></div>
+            </div>
           </article>
 
           <article class="featured-project" id="sign-language-project">
